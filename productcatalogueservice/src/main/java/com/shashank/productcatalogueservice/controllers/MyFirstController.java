@@ -13,7 +13,8 @@ public class MyFirstController {
     }
     @GetMapping("/ji")
     public String SayHi(){
-        return "Ji";
+        return "Hi";
+
     }
 
 }
